@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>2048</title>
+  
+  <link href="style/main.css" rel="stylesheet" type="text/css">
+  <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
+</head>
+<body>
+<!--shinobi1--><script type="text/javascript" src="//xa.shinobi.jp/ufo/190705600"></script><noscript><a href="//xa.shinobi.jp/bin/gg?190705600" target="_blank"><img src="//xa.shinobi.jp/bin/ll?190705600" border="0"></a><br><span style="font-size:9px"><img style="margin:0;vertical-align:text-bottom;" src="//img.shinobi.jp/tadaima/fj.gif" width="19" height="11"> </span></noscript><!--shinobi2-->
+  <div class="container">
+    <div class="heading">
+      <h1 class="title">2048</h1>
+      <div class="scores-container">
+        <div class="score-container">0</div>
+        <div class="best-container">0</div>
+      </div>
+    </div>
+    
+    <div class="above-game">
+      <p class="game-intro">うまいこと動かして 2048を作れ</p>
+      <a class="restart-button">新しいゲーム</a>
+    </div>
+    
+    <div class="game-container">
+      <div class="game-message">
+        <p></p>
+        <div class="lower">
+          <a class="keep-playing-button">頑張れ</a>
+          <a class="retry-button">もう一度</a>
+        </div>
+      </div>
+      
+      <div class="grid-container">
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+      </div>
+      
+      <div class="tile-container">
+        
+      </div>
+    </div>
+    
+    <p class="game-explanation">
+      <strong class="important">遊び方</strong> 
+      スマホで上下左右にスワイプする
+      pcなら矢印キーで操作する
+    </p>
+    <hr>
+    <p>
+      <strong class="important">のーと:</strong> 使ったプログラム
+      HTML
+      CSS
+      Javascript
+    </p>
+    <hr>
+    <p>
+      作った人 <a href="https://twitter.com/nazogeFox" target="_blank">nazoge</a>
+    </p>
+    <p>
+      めっちゃテストプレイしてくれた人 <a href="https://twitter.com/tapioka_panti" target="_blank">tapioka_panti</a>
+    </p>
+  </div>
+  
+  <script src="js/bind_polyfill.js"></script>
+  <script src="js/classlist_polyfill.js"></script>
+  <script src="js/animframe_polyfill.js"></script>
+  <script src="js/keyboard_input_manager.js"></script>
+  <script src="js/html_actuator.js"></script>
+  <script src="js/grid.js"></script>
+  <script src="js/tile.js"></script>
+  <script src="js/local_storage_manager.js"></script>
+  <script src="js/game_manager.js"></script>
+  <script src="js/application.js"></script>
+</body>
+</html>
